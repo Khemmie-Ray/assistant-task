@@ -12,6 +12,10 @@ body {
     font-size: 1rem;
 }
 
+.container {
+    position: relative;
+}
+
 .btn-card {
     width: 80%;
     margin: 1em auto;
@@ -32,7 +36,12 @@ h1 {
     text-align: center;
 }
 
+.btn-card {
+    margin-top: auto;
+}
+
 .btn-card button {
+    cursor: pointer;
     font-weight: 700;
     padding: 1em;
     border-radius: 10px;
@@ -49,6 +58,8 @@ h1 {
     transform: scale(1.1);
 }
 
-#card-content {
+.pop-message {
     color: white;
+    width: 40%;
+    text-align: center;
 }
