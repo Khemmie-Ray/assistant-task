@@ -20,6 +20,18 @@ body {
     justify-content: space-between;
 }
 
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.top-content {
+    width: 50%;
+    margin: 3em auto;
+    color: white;
+    text-align: center;
+}
+
 .btn-card button {
     font-weight: 700;
     padding: 1em;
