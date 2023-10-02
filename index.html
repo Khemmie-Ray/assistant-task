@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated On Page Assistant</title>
+    <script type="module" src="./main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Welcome to On-page Assistant</h1>
+        </div>
+        <div class="btn-card">
+            <button id="product">Products</button>
+            <button id="explore">Explore</button>
+            <button id="support">Support</button>
+            <button id="faqs">Faqs</button>
+            <button id="get-started">Get Started</button>
+        </div>
+        <div id="card-content">
+
+        </div>
+    </div>
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three@v0.157.0
+            /build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@<version>/examples/jsm/"
+          }
+        }
+      </script>
+</body>
+</html>
